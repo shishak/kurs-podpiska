@@ -48,12 +48,9 @@ const About = () => (
         <Container>
           <Grid>
             <div>
-              <h2>Speed past the competition</h2>
+              <h2>Отсутствие задержки обновления всех курсов</h2>
               <p>
-                Gatsby.js builds the fastest possible website. Instead of
-                waiting to generate pages when requested, pre-build pages and
-                lift them into a global cloud of servers — ready to be delivered
-                instantly to your users wherever they are.
+               
               </p>
             </div>
             <Art>
@@ -65,28 +62,33 @@ const About = () => (
               <Img fluid={data.art_learn.childImageSharp.fluid} />
             </Art>
             <div>
-              <h2>Nothing new to learn here</h2>
+              <h2>отсутствие рекламы на сайте</h2>
               <p>
-                Enjoy the power of the latest web technologies – React.js ,
-                Webpack , modern JavaScript and CSS and more — all set up and
-                waiting for you to start building.
+                
               </p>
             </div>
           </Grid>
           <Grid>
             <div>
-              <h2>Grow and build your ideas</h2>
+              <h2>комментарии экспертов</h2>
               <p>
-                Waste no more time on tooling and performance. Focus on the the
-                site you want to build and nothing more.
-                <br />
-                <br />
-                Gatsby is fast in every way that matters.
+             
               </p>
             </div>
             <Art>
               <Img fluid={data.art_ideas.childImageSharp.fluid} />
             </Art>
+          </Grid>
+            <Grid inverse>
+            <Art>
+              <Img fluid={data.art_learn.childImageSharp.fluid} />
+            </Art>
+            <div>
+              <h2>доступ к разделу Межбанк на форуме</h2>
+              <p>
+                
+              </p>
+            </div>
           </Grid>
         </Container>
       </Section>
