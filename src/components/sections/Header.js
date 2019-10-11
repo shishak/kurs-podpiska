@@ -31,16 +31,12 @@ const Header = () => (
             </Art>
             <Text>
               <h1>
-                Fast in
-                <br />
-                every way
-                <br />
-                that matters
+                Межбанк
               </h1>
               <br />
               <p>
-                <StyledExternalLink href="https://github.com/ajayns/gatsby-absurd">
-                  Check out source &nbsp;&#x2794;
+                <StyledExternalLink href="https://kurs.com.ua/store/product/10-mezhbank/">
+                 Добавить в корзину
                 </StyledExternalLink>
               </p>
             </Text>
